@@ -18,38 +18,38 @@ def Menu():
 3. List the records
 4. Modify a record
 5. Delete a record
-6. Exit""")
+6. Exit\n""")
         
         selectedOption = input("Option: ")
         
         if selectedOption == "1":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             
             peopleList.append(RegistersPerson())
             
         elif selectedOption == "2":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             
             SearchesPerson(RequestsId(), peopleList)
             
         elif selectedOption == "3":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             
             PrintsList(peopleList)
             
         elif selectedOption == "4":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             
             peopleList = RequestsModification(peopleList)
             
         elif selectedOption == "5":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             
             id = RequestsId()
             peopleList = DeletesPerson(id, peopleList)
             
         elif selectedOption == "6":
-            print(f"Option {selectedOption} selected")
+            print(f"Option {selectedOption} selected\n")
             print("Exiting...")
             break
         else:

@@ -12,6 +12,6 @@ def RegistersPerson():
     
     newPerson = [fullName, dateOfBirth, cpf, email]
     
-    print(f"New person created: {newPerson}")
+    print(f"New person created: {newPerson}\n")
     
     return newPerson

@@ -6,6 +6,7 @@ def RequestsCPF():
     while True:
         try:
             cpf = input("Please, enter only the 11 CPF numbers: ")
+            print("\n")
             
             if ValidatesCPF(cpf):
                 return FormatCPF(cpf)

@@ -9,7 +9,7 @@ def SelectsModification(peopleList):
 1. Name
 2. Date of Birth
 3. CPF
-4. E-mail""")
+4. E-mail\n""")
             field = int(input())
             if 0 < field < 5:
                 return id, field-1
